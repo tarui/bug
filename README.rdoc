@@ -1,6 +1,11 @@
 = bug
 
-Description goes here.
+We can encounter a Bug everywhere!
+
+Hot to use:
+    Bug.raise
+or
+    Bug.raise "what happen!?"
 
 == Contributing to bug
  
