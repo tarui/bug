@@ -2,7 +2,7 @@
 
 We can encounter a Bug everywhere!
 
-Hot to use:
+How to use:
     Bug.raise
 or
     Bug.raise "what happen!?"
