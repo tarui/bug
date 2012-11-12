@@ -9,8 +9,10 @@ Jeweler::Tasks.new do |gem|
   gem.name = "bug"
   gem.homepage = "http://github.com/tarui/bug"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{we can encounter a Bug everywhere!}
+  gem.description = %Q{we can encounter a Bug everywhere!
+  Bug.raise call bug backtrace
+}
   gem.email = "tarui@prx.jp"
   gem.authors = ["Masaya TARUI"]
   # Include your dependencies below. Runtime dependencies are required when using your gem,
@@ -43,6 +45,7 @@ Rake::TestTask.new(:test) do |test|
   test.verbose = true
 end
 
+=begin
 require 'rcov/rcovtask'
 Rcov::RcovTask.new do |test|
   test.libs << 'test'
@@ -50,6 +53,7 @@ Rcov::RcovTask.new do |test|
   test.verbose = true
   test.rcov_opts << '--exclude "gems/*"'
 end
+=end
 
 task :default => :test
 
