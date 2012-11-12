@@ -23,6 +23,7 @@ Gem::Specification.new do |s|
     "README.rdoc",
     "Rakefile",
     "VERSION",
+    "bug.gemspec",
     "ext/bug.c",
     "ext/extconf.rb",
     "lib/bug.rb",
